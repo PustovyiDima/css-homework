@@ -1,0 +1,135 @@
+:root{
+    background-color: #fff;
+}
+*{
+    color: black;
+}
+h1{
+    background-color: blue;
+}
+.green{
+    color:green;
+}
+#blue{
+    color: blue;
+}
+
+.box div{
+    background-color: green;
+}
+.box p{
+    background-color: #f00e0e;
+}
+.brown{
+    background-color: brown;
+    color: #fff;
+}
+ul.first-lesson>li{
+    background-color: red;
+}
+
+.header-button+span{
+    background-color: red;
+}
+
+.susid~p{
+    background-color: blue;
+    color: #fff;
+}
+
+.salo,#bread{
+    background-color: yellow;
+}
+
+/* Урок 2  */
+
+.first-task ul li:first-child{
+    color: #fff;
+}
+
+.second-task ul:first-child li:first-child{
+    color: #fff;
+}
+
+.third-task ul:last-child li:first-child{
+    background-color: yellow;
+}
+
+.four-task ul li:last-child{
+    background-color: yellow;
+}
+
+.five-task ul:last-child li:last-child{
+    color: rgb(255, 255, 255);
+}
+
+.only-child-task div:only-child{
+    color: red;
+}
+
+.seven-task p:first-of-type{
+    background-color: red ;
+}
+
+.eight-task p:last-of-type{
+    background-color: red;
+}
+
+.nine-task .text-wrapper p:only-of-type{
+    background-color: yellow;
+} 
+
+/* Урок 3  */
+
+.lesson-three-task-one nav ul li a[href]{
+    color: #fff;
+}
+
+.lesson-three-task-two li[value]{
+    color: yellow;
+}
+
+.lesson-three-task-three li[value='3']{
+    background-color: red;
+}
+
+.lesson-three-task-four button[class~="primary"]{
+ background-color: blue;
+}
+
+.lesson-three-task-five button[class|="secondary"]{
+    background-color: #f00e0e;
+}
+
+.lesson-three-task-six ul li[class^="b"]{
+    background-color: #fff;
+    color: green;
+}
+.lesson-three-task-seven ul li[class*="on"]{
+    background-color: #fff;
+    color: green;
+}
+
+.lesson-three-task-eight ul li span[class$="s"]{
+    background-color: #f00e0e;
+}
+
+.lesson-three-task-nine h2::first-letter{
+    color: red;
+}
+
+.lesson-three-task-ten::first-line{
+    background-color: yellow;
+}
+
+.lesson-three-task-eleven input::placeholder{
+    background-color: red;
+}
+
+.lesson-three-task-twelve ul li::before{
+    content: "➤ ";
+}
+
+.lesson-three-task-thirteen ul li::after{
+    content: " ➤ ";
+}
